@@ -18,6 +18,8 @@ public class DropdownUtil {
 
     public static String getSelectedOption(WebElement element) {
         Select select = new Select(element);
+         System.out.println("Hi"); 
+        
         return select.getFirstSelectedOption().getText();
     }
 }
