@@ -8,11 +8,10 @@
           <include name="captureResult"/>
           <include name="createTest"/>
           <include name="setupReport"/>
-          <include name="validateChartWithCardValues"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="validatePieChartRendersForAllStates"/>
           <include name="flushReport"/>
-          <include name="validateAllStatesData"/>
         </methods>
       </class> <!-- tracker.HomeTest -->
     </classes>
